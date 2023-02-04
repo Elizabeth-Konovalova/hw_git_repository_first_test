@@ -43,8 +43,15 @@
     <h1>Test Site</h1>
     <main>
     <div id="one">One</div>
-    <div id="two">Two</div>
+    <div id="two" onclick="clicled(event)">Two</div>
     <div id="three">Three</div>
     </main>
+    <script>
+        function clicled(e){
+            two.style.width = "300px";
+            two.style.borderRadius = "100%";
+        }
+
+    </script>
 </body>
 </html>
